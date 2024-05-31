@@ -5,7 +5,7 @@
 .box {
   width: 100px;
   height: 100px;
-  background-color: purple;
+  background-color: skyblue;
   color: white;
 }
 .sub-main {
@@ -22,7 +22,7 @@
 .box2 {
   width: 100px;
   height: 100px;
-  background-color: purple;
+  background-color: pink;
   color: white;
 }
 .box-center2 {
@@ -32,37 +32,37 @@
   align-self: flex-end;
 }
 
-.main3 {
+.ex03-main {
   display: flex;
   justify-content: center;
 }
-.box3 {
-  width: 100px;
-  height: 100px;
-  background-color: purple;
-  color: white;
-}
-.box-big2-3 {
+
+.ex03-big-box {
   width: 200px;
   height: 200px;
-  background-color: black;
+  background-color: gray;
   color: white;
   position: relative;
 }
-.box-position3 {
+.ex03-sm-box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  color: black;
+}
+.ex03-box2 {
   position: absolute;
   left: 50px;
   top: 50px;
 }
-
 .box4 {
   width: 100px;
   height: 100px;
-  background-color: purple;
+  background-color: yellow;
   color: white;
 }
 .box-2-4 {
-  background-color: black;
+  background-color: green;
 }
 .box-position4 {
   position: relative;
@@ -73,13 +73,13 @@
 .box5 {
   width: 100px;
   height: 100px;
-  background-color: purple;
+  background-color: blue;
   color: white;
 }
 .box-big5 {
   width: 400px;
   height: 150px;
-  background-color: black;
+  background-color: hotpink;
   color: white;
   position: absolute;
   right: 0px;
