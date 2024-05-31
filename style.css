@@ -1,0 +1,97 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  color: white;
+}
+.sub-main {
+  display: flex;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+
+.main2 {
+  display: flex;
+  flex-direction: column;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  color: white;
+}
+.box-center2 {
+  align-self: center;
+}
+.box-end2 {
+  align-self: flex-end;
+}
+
+.main3 {
+  display: flex;
+  justify-content: center;
+}
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  color: white;
+}
+.box-big2-3 {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+.box-position3 {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.box4 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  color: white;
+}
+.box-2-4 {
+  background-color: black;
+}
+.box-position4 {
+  position: relative;
+  left: 50px;
+  top: -50px;
+}
+
+.box5 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  color: white;
+}
+.box-big5 {
+  width: 400px;
+  height: 150px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.box-top5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.box-bottom5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
